@@ -1,0 +1,18 @@
+.spacing {
+  margin: 50px;
+}
+img {
+  width: 75%;
+  height: auto;
+  margin: auto;
+  display: block;
+  animation: planet-spin infinite 15s linear;
+}
+@keyframes planet-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
